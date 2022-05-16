@@ -1,0 +1,114 @@
+
+/*/* Style the navigation menu inside the left column */
+#myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+  
+  #myMenu li a:hover {
+    background-color: #eee;
+  }
+  main{
+    background-color: antiquewhite;
+
+  }
+  label{
+    color: blueviolet;
+    margin-left: 0%;
+    padding: 12px 12px 12px 0;
+   display: inline-block;
+  
+  }
+  input{
+    margin-right: 150%;
+    float: right 500%;
+    padding-right: 25%;
+  }
+  form{
+    border: black 15px;
+    border-width: 50% ;
+
+  }
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+  /* Style the submit button with a specific background color etc */
+button[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddcd;
+  color:wheat
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #045A6D;
+  color: white;
+}
+
+img{
+  float: right 50%;
+  border: solid rgb(0, 0, 0) 0.50rem  ;
+  border-style: groove;
+  margin-left: 45%;
+  padding: auto;
+  border-top-left-radius: 10px;
+  border: 2px solid #42352c;
+  border-radius: 100px;
+  
+}
+
+
+.cap {
+ font-weight: bold ;
+ font-size: 1.0rem; 
+ text-align: center;
+ text-decoration: maroon;
+ background:  #812f33 heigh 300px;
+ border-color: solid #F3FE;
+ 
+} 
+body{
+ color: solid #336;
+ background-color: whitesmoke;
+ border: 1px solid blue;
+}
